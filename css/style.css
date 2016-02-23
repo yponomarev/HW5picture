@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #939393;
+}
+
+table{
+    background: white;
+    border-collapse: collapse;
+    width: 420px;
+    height: 540px;
+    margin: 30px auto;
+    box-shadow: 0 -5px 5px rgba(0, 0, 0, .3)
+}
+tr{
+    margin: 0;
+    padding: 0;
+}
+td{
+    border: 3px solid black;
+    color: white;
+}
+.yellow{
+    background: rgba(255,230,101,0.9);
+    color: rgba(255,230,101,0.1);
+}
+.black{
+    background: rgba(14,14,14,0.9);
+    color: rgba(14,14,14,0.1);
+}
+.blue{
+    background: rgba(7,71,131,0.9);
+    color: rgba(7,71,131,0.1)
+}
+.red{
+    background: rgba(255,95,56,0.9);
+    color: rgba(255,95,56,0.1)
+}
